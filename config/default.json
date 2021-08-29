@@ -1,0 +1,20 @@
+{
+  "secureServer": {
+    "passwordPolicy": {
+      "passwordComplexity": {
+        "minLength": 8,
+        "requireBigAlpha": true,
+        "requireSmallAlpha": true,
+        "requireNumeric": true,
+        "requireSpecialChars": true
+      },
+      "passwordAge": 60,
+      "passwordHistorySize": 5,
+      "dictionaryTable": true
+    },
+    "fileUpload": {
+      "allowedTypes": ["jpeg", "jpg", "pdf"],
+      "verifyFileMagicNumbers": true
+    }
+  }
+}

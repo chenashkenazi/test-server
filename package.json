@@ -1,0 +1,13 @@
+{
+  "name": "test-server",
+  "version": "1.0.0",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-promise-router": "^4.1.0",
+    "pg": "^8.7.1",
+    "server-security": "file:../server-security",
+    "uuid": "^8.3.2"
+  }
+}
